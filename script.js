@@ -34,10 +34,17 @@ function setGameElements() {
       break;
     case 'ended':
       newGameBtn.innerText = 'Jeszcze raz';
+<<<<<<< HEAD
       playerPickElem.innerText = "Player selection";
       computerPickElem.innerText = "Computer selection";
       playerResultElem.innerText = "Player Score";
       computerResultElem.innerText = "Computer Score";
+=======
+      playerPickElem.innerHTML = "Player selection";
+      computerPickElem.innerHTML = "Computer selection";
+      playerResultElem.innerHTML = "Player Score";
+      computerResultElem.innerHTML = "Computer Score";
+>>>>>>> 6396a0123ca64a8fe6bde779104595e13d6ea30c
     case 'notStarted':
     default:
       newGameElem.style.display = 'block';
@@ -133,4 +140,3 @@ function isTenPoints() {
     afterWinRound();
   }
 }
-
