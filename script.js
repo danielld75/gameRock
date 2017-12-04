@@ -119,7 +119,7 @@ function afterWinRound() {
   setTimeout(function(){
     gameState = "ended";
     setGameElements();
-  }, 2000);
+  }, 2500);
 }
 
 function isTenPoints() {
